@@ -1,1 +1,94 @@
-/*Schrijf hier jouw CSS*/
+/*Opdracht 1*/
+
+.list-exc-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*Opdracht 2*/
+
+.list-exc-2 {
+    display: flex;
+    flex-direction: row;
+    height: 125px;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.list-item-exc-2 {
+    flex-basis: 534px;
+}
+
+.list-item-23 {
+    flex-grow: 1;
+}
+
+/*Opdracht 3*/
+
+.list-exc-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+    height: 125px;
+}
+
+.item-exc-31 {
+    align-self: flex-start;
+}
+
+.item-exc-32 {
+    align-self: center;
+}
+
+.item-exc-33 {
+    align-self: flex-end;
+}
+
+/*Opdracht 4*/
+
+.list-exc-4 {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    height: 144px;
+    border: 2px dotted green;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.list-item-exc-4 {
+    flex-shrink: 0;
+}
+
+/*Opdracht 5*/
+
+.container-exc-5 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 122px;
+}
+
+.list-exc-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 122px;
+}
+
+.list-exc-51 {
+    align-items: flex-start;
+}
+
+.list-exc-52 {
+    align-items: center;
+}
+
+.list-exc-53 {
+    align-items: flex-end;
+}
+
+
+
