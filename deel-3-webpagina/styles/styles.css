@@ -1,1 +1,127 @@
-/*Schrijf hier jouw css*/
+/*global styles*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: "Coming Soon", cursive;
+    background-color: #F2F3D9;
+}
+
+/*nav*/
+
+nav {
+    background-color: #030027;
+    color: white;
+
+    /*item*/
+    flex-basis: 50px;
+    flex-grow: 0;
+    flex-shrink: 0;
+
+    /*container*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-home {
+    justify-content: flex-start;
+
+    flex-basis: auto;
+    flex-grow: 4;
+    text-transform: uppercase;
+
+    padding: 5px;
+}
+
+.nav-links {
+    flex-basis: auto;
+    flex-grow: 1;
+    justify-content: space-evenly;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover, a:visited {
+    color: white;
+}
+
+/*header*/
+
+header {
+    /*item*/
+    flex-basis: 200px;
+    flex-grow: 0;
+    flex-shrink: 0;
+
+/*    container*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*main*/
+
+main {
+    /* item*/
+    flex-basis: auto;
+    flex-grow: 0;
+    flex-shrink: 1;
+
+/*    container*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2vw;
+}
+
+article {
+    background-color: #C16E70;
+
+/*    item*/
+    flex-basis: 280px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    height: 350px;
+
+
+/*    container*/
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+p {
+/*    item*/
+    flex-basis: auto;
+    flex-grow: 0;
+    flex-shrink: 1;
+
+    text-align: center;
+    padding: 10px;
+
+}
+
