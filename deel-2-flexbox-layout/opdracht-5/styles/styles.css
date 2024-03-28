@@ -3,3 +3,49 @@ body {
     flex-direction: column;
     height: 100vh;
 }
+
+header {
+/*item*/
+    flex-basis: 200px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+main {
+    /*item*/
+    flex-basis: 500px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    /*container*/
+    display: flex;
+    flex-direction: row;
+}
+
+article {
+/*item*/
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+nav {
+/*    item*/
+    flex-basis: 300px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    order: -1;
+}
+
+aside {
+/*    item*/
+    flex-basis: 300px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+footer {
+/*item*/
+    flex-basis: 200px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
